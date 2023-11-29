@@ -32,7 +32,7 @@ map.on('click', 'points', function (e) {
     .setHTML("<a href='#" + properties.name + "' class='popup-link'>" + properties.name + "</a>")
     .addTo(map);
 });
-
+//
 map.on('load', function() {
     map.loadImage('https://cdn-icons-png.flaticon.com/512/9356/9356230.png', function(error, image) {
         if (error) throw error;
