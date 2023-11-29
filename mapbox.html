@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Mapeamento Acústico</title>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    
+    <div id="map" class="mapboxgl-map"><div class="mapboxgl-canary" style="visibility: hidden;"></div>
+    <div class="mapboxgl-canvas-container mapboxgl-interactive mapboxgl-touch-drag-pan mapboxgl-touch-zoom-rotate">
+        <canvas class="mapboxgl-canvas" tabindex="0" aria-label="Map" width="1600" height="255" style="position: absolute; width: 1600px; height: 255px;"></canvas>
+        <script src="js/inicializaMap.js"></script>
+    </div>
+    <div class="mapboxgl-control-container">
+        <div class="mapboxgl-ctrl-top-left">
+        </div>
+        <div class="mapboxgl-ctrl-top-right">
+            
+        </div>
+        <div class="mapboxgl-ctrl-bottom-left">
+            <div class="mapboxgl-ctrl" style="display: block;">
+                <a class="mapboxgl-ctrl-logo" target="_blank" href="https://www.mapbox.com/" aria-label="Mapbox logo" rel="noopener"></a>
+            </div>
+        </div>
+        <div class="mapboxgl-ctrl-bottom-right">
+            <div class="mapboxgl-ctrl mapboxgl-ctrl-attrib">
+                <a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox</a>
+                <a href="http://www.openstreetmap.org/about/" target="_blank">© OpenStreetMap</a>
+                <a class="mapbox-improve-map" href="https://www.mapbox.com/feedback/?owner=mapbox&amp;id=streets-v9&amp;access_token=pk.eyJ1Ijoiam9zZXZpY3RvciIsImEiOiJjam41ODM5dm4wMWxsM3BveGY1b3VpbzB5In0.HGKdeoRnogQrpzHqH89HTg" target="_blank">Improve this map</a>
+            </div>
+        </div>
+    </div>
+    <div class="mapboxgl-popup mapboxgl-popup-anchor-bottom" style="transform: translate(-50%, -100%) translate(1151px, 152px);">
+    </div>
+</div>
+<div id="popup-wrapper">
+    <div id="popup"></div>
+</div>
+
+
+<script defer src="js/script.js"></script>
+
+
+</body>
+
+
+<body>
+    
+    
+    
+    
+    
+</body>
+</html>
