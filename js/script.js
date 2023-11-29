@@ -34,7 +34,7 @@ map.on('click', 'points', function (e) {
 });
 
 map.on('load', function() {
-    map.loadImage('../js/icon.png', function(error, image) {
+    map.loadImage('https://cdn-icons-png.flaticon.com/512/9356/9356230.png', function(error, image) {
         if (error) throw error;
         map.addImage('pin', image);
         
@@ -64,7 +64,7 @@ map.on('load', function() {
             "layout": {
                 'icon-allow-overlap': true,
                 "icon-image": "pin",
-                "icon-size": 0.25
+                "icon-size": 0.10
             }
         });
     });
